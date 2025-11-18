@@ -1,3 +1,9 @@
+
+import { redirect } from 'next/navigation';
+
+export default function Home() {
+  redirect('/platforms');
+
 import Link from "next/link";
 
 export default function Home() {
@@ -19,4 +25,5 @@ export default function Home() {
       </main>
     </div>
   );
+
 }
