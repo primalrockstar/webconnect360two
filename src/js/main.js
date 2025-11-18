@@ -1,8 +1,8 @@
 // Main JavaScript file for WebConnect360
 
-// Load environment variables (if using a bundler)
+// Configuration
 const config = {
-    apiUrl: process?.env?.API_URL || 'https://api.example.com',
+    apiUrl: 'https://api.example.com',
     appName: 'WebConnect360',
     version: '1.0.0'
 };
